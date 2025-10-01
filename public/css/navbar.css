@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Instrument Sans', sans-serif;
+    background-color: #191a1b;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+
+.background-pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(circle at 20% 30%, #00b1a262, transparent 40%),
+        radial-gradient(circle at 80% 40%, #f784c567, transparent 35%),
+        radial-gradient(circle at 50% 80%, #1b602ea9, transparent 45%);
+    filter: blur(80px);
+    z-index: -1;
+    pointer-events: none;
+}
+
+
+.navbar {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(33, 37, 41, 0.55) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
